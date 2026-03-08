@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM-Assignment-6</title>
+    <script async src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h3>Task-1</h3>
+      <form action="" id="formReloed">
+        <input type="text" name="" id="input_1" />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div>
+      <h3>Task-2</h3>
+      <form action="" id="formEmpty">
+        <input type="text" name="fullname" id="input_1" />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div>
+      <h3>Task-3</h3>
+      <form action="" id="formEmail">
+        <input type="email" name="email" id="input_3" />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div>
+      <h3>Task-4</h3>
+      <form action="" id="formSubmit">
+        <input type="password" name="password" id="input_4" />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div>
+      <h3>Task-5</h3>
+      <div class="form-container">
+        <h2>Registration Form</h2>
+
+        <form id="form">
+          <!-- Full Name -->
+          <label for="fullname">Full Name</label>
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter full name"
+          />
+          <p id="fullname-error"></p>
+
+          <!-- Email -->
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter email"
+          />
+          <p id="email-error"></p>
+
+          <!-- Password -->
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter password"
+          />
+          <p id="password-error"></p>
+
+          <!-- Confirm Password -->
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm_password"
+            placeholder="Confirm password"
+          />
+          <p id="confirm-password-error"></p>
+
+          <!-- Phone -->
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter phone number"
+          />
+          <p id="phone-error"></p>
+
+          <!-- Gender -->
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender">
+            <option value="">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <p id="gender-error"></p>
+
+          <!-- Submit Button -->
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+    <div>
+      <h3>Task-6</h3>
+      <form action="" onsubmit="formRest()">
+        <input type="text" name="rest-username" placeholder="username"/>
+        <input type="email" name="rest-email" placeholder="enter email"/>
+        <input  name="rest-password" placeholder="Enter password" type="password"/>
+        <button>Submit</button>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
